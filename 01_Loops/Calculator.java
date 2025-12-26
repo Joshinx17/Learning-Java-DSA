@@ -30,10 +30,10 @@ public class Calculator {
                     }
                 }
                 if (op == '%') {
-                    ans = num1 + num2;
+                    ans = num1 % num2;
                 }
 
-            } else if (op == 'x') {
+            } else if (op == 'x' || op == 'X') {
                 break;
             }
 
@@ -43,3 +43,4 @@ public class Calculator {
         input.close();
     }
 }
+
